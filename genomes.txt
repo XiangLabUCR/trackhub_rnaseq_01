@@ -1,2 +1,2 @@
-genome hg38_fluWSN
+genome hg38
 trackDb hg38_fluWSN/trackDb.txt
