@@ -1,0 +1,5 @@
+hub trackhub_rnaseq_01_JX
+shortLabel RNAseq PA PB2
+longLabel Bulk RNAseq data of HEK293T1 cells overexpressing PA and PB2 of IAV 
+genomesFile genomes.txt
+email joy.xiang@medsch.ucr.edu
