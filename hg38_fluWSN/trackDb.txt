@@ -1,0 +1,390 @@
+######################
+ PB1PB2 composite track
+######################
+track PB1PB2
+compositeTrack on
+shortLabel PB1PB2
+longLabel PB1PB2 RNAseq
+group default
+visibility full
+type bigWig
+autoScale off
+maxHeightPixels 128:32:8
+subGroup1 replicate 1=Rep1 2=Rep2 3=Rep3
+sortOrder replicate=+
+dimensions dimensionX=replicate
+dragAndDrop subTracks
+priority 1
+
+    # ---- PB1PB2 Rep1 ----
+    track PB1PB2_1+
+    parent PB1PB2 on
+    bigDataUrl PB1PB2_rep1.plus.sub.bw
+    shortLabel PB1PB2_1+
+    longLabel PB1PB2 replicate 1 plus
+    subGroups replicate=PB1PB2
+    color 0,100,255
+    autoScale on
+
+    track PB1PB2_1-
+    parent PB1PB2 on
+    bigDataUrl PB1PB2_rep1.scaled.minus.sub.bw
+    shortLabel PB1PB2_1-
+    longLabel PB1PB2 replicate 1 minus
+    subGroups replicate=PB1PB2
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+    # ---- PB1PB2 Rep2 ----
+    track PB1PB2_2+
+    parent PB1PB2 on
+    bigDataUrl PB1PB2_rep2.plus.sub.bw
+    shortLabel PB1PB2_1+
+    longLabel PB1PB2 replicate 2 plus
+    subGroups replicate=PB1PB2
+    color 0,100,255
+    autoScale on
+
+    track PB1PB2_2-
+    parent PB1PB2 on
+    bigDataUrl PB1PB2_rep2.scaled.minus.sub.bw
+    shortLabel PB1PB2_2-
+    longLabel PB1PB2 replicate 2 minus
+    subGroups replicate=PB1PB2
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+    # ---- PB1PB2 Rep3 ----
+    track PB1PB2_3+
+    parent PB1PB2 on
+    bigDataUrl PB1PB2_rep3.plus.sub.bw
+    shortLabel PB1PB2_1+
+    longLabel PB1PB2 replicate 3 plus
+    subGroups replicate=PB1PB2
+    color 0,100,255
+    autoScale on
+
+    track PB1PB2_3-
+    parent PB1PB2 on
+    bigDataUrl PB1PB2_rep3.scaled.minus.sub.bw
+    shortLabel PB1PB2_3-
+    longLabel PB1PB2 replicate 3 minus
+    subGroups replicate=PB1PB2
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+######################
+ mCh composite track
+######################
+track mCh
+compositeTrack on
+shortLabel mCh
+longLabel mCh RNAseq
+group default
+visibility full
+type bigWig
+autoScale off
+maxHeightPixels 128:32:8
+subGroup1 replicate 1=Rep1 2=Rep2 3=Rep3
+sortOrder replicate=+
+dimensions dimensionX=replicate
+dragAndDrop subTracks
+priority 1
+
+    # ---- mCh Rep1 ----
+    track mCh_1+
+    parent mCh on
+    bigDataUrl mCh_rep1.plus.sub.bw
+    shortLabel mCh_1+
+    longLabel mCh replicate 1 plus
+    subGroups replicate=mCh
+    color 0,100,255
+    autoScale on
+
+    track mCh_1-
+    parent mCh on
+    bigDataUrl mCh_rep1.scaled.minus.sub.bw
+    shortLabel mCh_1-
+    longLabel mCh replicate 1 minus
+    subGroups replicate=mCh
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+    # ---- mCh Rep2 ----
+    track mCh_2+
+    parent mCh on
+    bigDataUrl mCh_rep2.plus.sub.bw
+    shortLabel mCh_1+
+    longLabel mCh replicate 2 plus
+    subGroups replicate=mCh
+    color 0,100,255
+    autoScale on
+
+    track mCh_2-
+    parent mCh on
+    bigDataUrl mCh_rep2.scaled.minus.sub.bw
+    shortLabel mCh_2-
+    longLabel mCh replicate 2 minus
+    subGroups replicate=mCh
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+    # ---- mCh Rep3 ----
+    track mCh_3+
+    parent mCh on
+    bigDataUrl mCh_rep3.plus.sub.bw
+    shortLabel mCh_1+
+    longLabel mCh replicate 3 plus
+    subGroups replicate=mCh
+    color 0,100,255
+    autoScale on
+
+    track mCh_3-
+    parent mCh on
+    bigDataUrl mCh_rep3.scaled.minus.sub.bw
+    shortLabel mCh_3-
+    longLabel mCh replicate 3 minus
+    subGroups replicate=mCh
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+######################
+ PB1 composite track
+######################
+track PB1
+compositeTrack on
+shortLabel PB1
+longLabel PB1 RNAseq
+group default
+visibility full
+type bigWig
+autoScale off
+maxHeightPixels 128:32:8
+subGroup1 replicate 1=Rep1 2=Rep2 3=Rep3
+sortOrder replicate=+
+dimensions dimensionX=replicate
+dragAndDrop subTracks
+priority 1
+
+    # ---- PB1 Rep1 ----
+    track PB1_1+
+    parent PB1 on
+    bigDataUrl PB1_rep1.plus.sub.bw
+    shortLabel PB1_1+
+    longLabel PB1 replicate 1 plus
+    subGroups replicate=PB1
+    color 0,100,255
+    autoScale on
+
+    track PB1_1-
+    parent PB1 on
+    bigDataUrl PB1_rep1.scaled.minus.sub.bw
+    shortLabel PB1_1-
+    longLabel PB1 replicate 1 minus
+    subGroups replicate=PB1
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+    # ---- PB1 Rep2 ----
+    track PB1_2+
+    parent PB1 on
+    bigDataUrl PB1_rep2.plus.sub.bw
+    shortLabel PB1_1+
+    longLabel PB1 replicate 2 plus
+    subGroups replicate=PB1
+    color 0,100,255
+    autoScale on
+
+    track PB1_2-
+    parent PB1 on
+    bigDataUrl PB1_rep2.scaled.minus.sub.bw
+    shortLabel PB1_2-
+    longLabel PB1 replicate 2 minus
+    subGroups replicate=PB1
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+    # ---- PB1 Rep3 ----
+    track PB1_3+
+    parent PB1 on
+    bigDataUrl PB1_rep3.plus.sub.bw
+    shortLabel PB1_1+
+    longLabel PB1 replicate 3 plus
+    subGroups replicate=PB1
+    color 0,100,255
+    autoScale on
+
+    track PB1_3-
+    parent PB1 on
+    bigDataUrl PB1_rep3.scaled.minus.sub.bw
+    shortLabel PB1_3-
+    longLabel PB1 replicate 3 minus
+    subGroups replicate=PB1
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+######################
+ PB2 composite track
+######################
+track PB2
+compositeTrack on
+shortLabel PB2
+longLabel PB2 RNAseq
+group default
+visibility full
+type bigWig
+autoScale off
+maxHeightPixels 128:32:8
+subGroup1 replicate 1=Rep1 2=Rep2 3=Rep3
+sortOrder replicate=+
+dimensions dimensionX=replicate
+dragAndDrop subTracks
+priority 1
+
+    # ---- PB2 Rep1 ----
+    track PB2_1+
+    parent PB2 on
+    bigDataUrl PB2_rep1.plus.sub.bw
+    shortLabel PB2_1+
+    longLabel PB2 replicate 1 plus
+    subGroups replicate=PB2
+    color 0,100,255
+    autoScale on
+
+    track PB2_1-
+    parent PB2 on
+    bigDataUrl PB2_rep1.scaled.minus.sub.bw
+    shortLabel PB2_1-
+    longLabel PB2 replicate 1 minus
+    subGroups replicate=PB2
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+    # ---- PB2 Rep2 ----
+    track PB2_2+
+    parent PB2 on
+    bigDataUrl PB2_rep2.plus.sub.bw
+    shortLabel PB2_1+
+    longLabel PB2 replicate 2 plus
+    subGroups replicate=PB2
+    color 0,100,255
+    autoScale on
+
+    track PB2_2-
+    parent PB2 on
+    bigDataUrl PB2_rep2.scaled.minus.sub.bw
+    shortLabel PB2_2-
+    longLabel PB2 replicate 2 minus
+    subGroups replicate=PB2
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+    # ---- PB2 Rep3 ----
+    track PB2_3+
+    parent PB2 on
+    bigDataUrl PB2_rep3.plus.sub.bw
+    shortLabel PB2_1+
+    longLabel PB2 replicate 3 plus
+    subGroups replicate=PB2
+    color 0,100,255
+    autoScale on
+
+    track PB2_3-
+    parent PB2 on
+    bigDataUrl PB2_rep3.scaled.minus.sub.bw
+    shortLabel PB2_3-
+    longLabel PB2 replicate 3 minus
+    subGroups replicate=PB2
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+######################
+ All composite track
+######################
+track All
+compositeTrack on
+shortLabel All
+longLabel All RNAseq
+group default
+visibility full
+type bigWig
+autoScale off
+maxHeightPixels 128:32:8
+subGroup1 replicate 1=Rep1 2=Rep2 3=Rep3
+sortOrder replicate=+
+dimensions dimensionX=replicate
+dragAndDrop subTracks
+priority 1
+
+    # ---- All Rep1 ----
+    track All_1+
+    parent All on
+    bigDataUrl All_rep1.plus.sub.bw
+    shortLabel All_1+
+    longLabel All replicate 1 plus
+    subGroups replicate=All
+    color 0,100,255
+    autoScale on
+
+    track All_1-
+    parent All on
+    bigDataUrl All_rep1.scaled.minus.sub.bw
+    shortLabel All_1-
+    longLabel All replicate 1 minus
+    subGroups replicate=All
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+    # ---- All Rep2 ----
+    track All_2+
+    parent All on
+    bigDataUrl All_rep2.plus.sub.bw
+    shortLabel All_1+
+    longLabel All replicate 2 plus
+    subGroups replicate=All
+    color 0,100,255
+    autoScale on
+
+    track All_2-
+    parent All on
+    bigDataUrl All_rep2.scaled.minus.sub.bw
+    shortLabel All_2-
+    longLabel All replicate 2 minus
+    subGroups replicate=All
+    color 0,100,255
+    negateValues on
+    autoScale on
+
+    # ---- All Rep3 ----
+    track All_3+
+    parent All on
+    bigDataUrl All_rep3.plus.sub.bw
+    shortLabel All_1+
+    longLabel All replicate 3 plus
+    subGroups replicate=All
+    color 0,100,255
+    autoScale on
+
+    track All_3-
+    parent All on
+    bigDataUrl All_rep3.scaled.minus.sub.bw
+    shortLabel All_3-
+    longLabel All replicate 3 minus
+    subGroups replicate=All
+    color 0,100,255
+    negateValues on
+    autoScale on
+
