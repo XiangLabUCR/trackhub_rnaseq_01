@@ -28,7 +28,7 @@ priority 1
 
     track PB1PB2_1-
     parent PB1PB2 on
-    bigDataUrl PB1PB2_rep1.scaled.minus.sub.bw
+    bigDataUrl PB1PB2_rep1.minus.sub.bw
     shortLabel PB1PB2_1-
     longLabel PB1PB2 replicate 1 minus
     subGroups replicate=PB1PB2
@@ -48,7 +48,7 @@ priority 1
 
     track PB1PB2_2-
     parent PB1PB2 on
-    bigDataUrl PB1PB2_rep2.scaled.minus.sub.bw
+    bigDataUrl PB1PB2_rep2.minus.sub.bw
     shortLabel PB1PB2_2-
     longLabel PB1PB2 replicate 2 minus
     subGroups replicate=PB1PB2
@@ -68,7 +68,7 @@ priority 1
 
     track PB1PB2_3-
     parent PB1PB2 on
-    bigDataUrl PB1PB2_rep3.scaled.minus.sub.bw
+    bigDataUrl PB1PB2_rep3.minus.sub.bw
     shortLabel PB1PB2_3-
     longLabel PB1PB2 replicate 3 minus
     subGroups replicate=PB1PB2
@@ -106,7 +106,7 @@ priority 1
 
     track mCh_1-
     parent mCh on
-    bigDataUrl mCh_rep1.scaled.minus.sub.bw
+    bigDataUrl mCh_rep1.minus.sub.bw
     shortLabel mCh_1-
     longLabel mCh replicate 1 minus
     subGroups replicate=mCh
@@ -126,7 +126,7 @@ priority 1
 
     track mCh_2-
     parent mCh on
-    bigDataUrl mCh_rep2.scaled.minus.sub.bw
+    bigDataUrl mCh_rep2.minus.sub.bw
     shortLabel mCh_2-
     longLabel mCh replicate 2 minus
     subGroups replicate=mCh
@@ -146,7 +146,7 @@ priority 1
 
     track mCh_3-
     parent mCh on
-    bigDataUrl mCh_rep3.scaled.minus.sub.bw
+    bigDataUrl mCh_rep3.minus.sub.bw
     shortLabel mCh_3-
     longLabel mCh replicate 3 minus
     subGroups replicate=mCh
@@ -184,7 +184,7 @@ priority 1
 
     track PB1_1-
     parent PB1 on
-    bigDataUrl PB1_rep1.scaled.minus.sub.bw
+    bigDataUrl PB1_rep1.minus.sub.bw
     shortLabel PB1_1-
     longLabel PB1 replicate 1 minus
     subGroups replicate=PB1
@@ -204,7 +204,7 @@ priority 1
 
     track PB1_2-
     parent PB1 on
-    bigDataUrl PB1_rep2.scaled.minus.sub.bw
+    bigDataUrl PB1_rep2.minus.sub.bw
     shortLabel PB1_2-
     longLabel PB1 replicate 2 minus
     subGroups replicate=PB1
@@ -224,7 +224,7 @@ priority 1
 
     track PB1_3-
     parent PB1 on
-    bigDataUrl PB1_rep3.scaled.minus.sub.bw
+    bigDataUrl PB1_rep3.minus.sub.bw
     shortLabel PB1_3-
     longLabel PB1 replicate 3 minus
     subGroups replicate=PB1
@@ -262,7 +262,7 @@ priority 1
 
     track PB2_1-
     parent PB2 on
-    bigDataUrl PB2_rep1.scaled.minus.sub.bw
+    bigDataUrl PB2_rep1.minus.sub.bw
     shortLabel PB2_1-
     longLabel PB2 replicate 1 minus
     subGroups replicate=PB2
@@ -282,7 +282,7 @@ priority 1
 
     track PB2_2-
     parent PB2 on
-    bigDataUrl PB2_rep2.scaled.minus.sub.bw
+    bigDataUrl PB2_rep2.minus.sub.bw
     shortLabel PB2_2-
     longLabel PB2 replicate 2 minus
     subGroups replicate=PB2
@@ -302,7 +302,7 @@ priority 1
 
     track PB2_3-
     parent PB2 on
-    bigDataUrl PB2_rep3.scaled.minus.sub.bw
+    bigDataUrl PB2_rep3.minus.sub.bw
     shortLabel PB2_3-
     longLabel PB2 replicate 3 minus
     subGroups replicate=PB2
@@ -340,7 +340,7 @@ priority 1
 
     track All_1-
     parent All on
-    bigDataUrl All_rep1.scaled.minus.sub.bw
+    bigDataUrl All_rep1.minus.sub.bw
     shortLabel All_1-
     longLabel All replicate 1 minus
     subGroups replicate=All
@@ -360,7 +360,7 @@ priority 1
 
     track All_2-
     parent All on
-    bigDataUrl All_rep2.scaled.minus.sub.bw
+    bigDataUrl All_rep2.minus.sub.bw
     shortLabel All_2-
     longLabel All replicate 2 minus
     subGroups replicate=All
@@ -380,7 +380,7 @@ priority 1
 
     track All_3-
     parent All on
-    bigDataUrl All_rep3.scaled.minus.sub.bw
+    bigDataUrl All_rep3.minus.sub.bw
     shortLabel All_3-
     longLabel All replicate 3 minus
     subGroups replicate=All
